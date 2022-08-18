@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1051886089134",
+    "firebase_url": "https://fir-remote-config-515a4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-remote-config-515a4",
+    "storage_bucket": "fir-remote-config-515a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051886089134:android:5bbabbf2e6a13893248e3f",
+        "android_client_info": {
+          "package_name": "com.example.demo_remote_config"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051886089134-n4vj8smoordc85e0550nn7n8uuv5fehu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAloGa5L2OVQxKvbsvAs-DkRbDFNZEARyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051886089134-n4vj8smoordc85e0550nn7n8uuv5fehu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1051886089134-lii12lcue8o4eplr0jhi99f3vrm9qehg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.demoRemoteConfig"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
