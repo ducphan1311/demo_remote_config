@@ -1,6 +1,5 @@
 import 'package:demo_remote_config/firebase_initialize.dart';
 import 'package:demo_remote_config/presentation/ui/home_page.dart';
-import 'package:demo_remote_config/domain/repository/firebase_remote_config_repository.dart';
 import 'package:flutter/material.dart';
 
 void main() async {

@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:demo_remote_config/cache.dart';
-import 'package:demo_remote_config/domain/entity/category_model.dart';
 import 'package:demo_remote_config/domain/entity/tab_model.dart';
 import 'package:demo_remote_config/domain/repository/firebase_remote_config_repository.dart';
 import 'package:demo_remote_config/presentation/bloc/cake_bloc.dart';
@@ -104,7 +103,7 @@ class _HomePageState extends State<HomePage>
                                         child: CircularProgressIndicator(),
                                       ),
                                   error: (e) => Center(
-                                        child: Text('${e}'),
+                                        child: Text('$e'),
                                       ));
                             }));
                   case HomeStyleTemplate.styleCandy:
@@ -149,9 +148,6 @@ class _HomePageState extends State<HomePage>
                   default:
                     return SizedBox();
                 }
-                return Container(
-                  child: Text('${Cache.tabs[index].title}'),
-                );
               },
             )),
       ),
