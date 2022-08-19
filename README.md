@@ -1,8 +1,12 @@
 # demo_remote_config
 
-A new Flutter project.
+Demo Firebase Remote Config using Flutter.
 
 ## Getting Started
+
+Using flutter sdk 3.0.5
+
+Contact mail ducphan1311@gmail.com to be added to firebase
 
 This project is a starting point for a Flutter application.
 
